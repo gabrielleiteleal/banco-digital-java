@@ -11,7 +11,7 @@ public abstract class Banco {
         this.nomeBanco = nomeBanco;
         this.agencia = agencia;
         this.numeroConta = numeroConta;
-        this.saldo = 0.0;
+        this.saldo = saldo;
     }
 
     abstract boolean sacar(double valor);
